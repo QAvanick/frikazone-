@@ -858,7 +858,7 @@ section,
 }
 
 .hero .hero-buttons .btn.btn-primary {
-  background: var(--accent-color);
+  background-color: #fffb00;
   color: var(--contrast-color);
   border: 2px solid var(--accent-color);
 }
