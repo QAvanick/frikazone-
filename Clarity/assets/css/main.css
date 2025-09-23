@@ -263,7 +263,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--nav-color);
+    color: #9333EA;
     font-size: 15px;
     padding: 0 2px;
     font-family: var(--nav-font);
@@ -656,7 +656,7 @@ h6 {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background-color: var(--accent-color);
+  background-color: #FFD700;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -858,26 +858,26 @@ section,
 }
 
 .hero .hero-buttons .btn.btn-primary {
-  background-color: #fffb00;
+  background-color: #FF8C00;
   color: var(--contrast-color);
   border: 2px solid var(--accent-color);
 }
 
 .hero .hero-buttons .btn.btn-primary:hover {
-  background: color-mix(in srgb, var(--accent-color), black 10%);
-  border-color: color-mix(in srgb, var(--accent-color), black 10%);
+  background-color: #FFD700;
+  border-color:#FFD700;
   transform: translateY(-2px);
 }
 
 .hero .hero-buttons .btn.btn-outline {
   background: transparent;
-  color: var(--accent-color);
-  border: 2px solid var(--accent-color);
+  color: #FFD700;
+  border: 2px solid #FFD700;
 }
 
 .hero .hero-buttons .btn.btn-outline:hover {
   background: var(--accent-color);
-  color: var(--contrast-color);
+  color: #FFD700;
   transform: translateY(-2px);
 }
 
@@ -895,7 +895,7 @@ section,
   display: block;
   font-size: 2rem;
   font-weight: 700;
-  color: var(--accent-color);
+  color: #FFD700;
   line-height: 1;
 }
 
