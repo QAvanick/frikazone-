@@ -33,7 +33,7 @@
 :root {
   --nav-color: #c8c6e3;  /* The default color of the main navmenu links */
   --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #03051f; /* Used as the background color for mobile navigation menu */
+  --nav-mobile-background-color: #FF8C00;; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #1f2240; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #c8c6e3; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #ffffff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
@@ -75,7 +75,7 @@ a {
 }
 
 a:hover {
-  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  color: #FF8C00;
   text-decoration: none;
 }
 
@@ -166,7 +166,7 @@ h6 {
 }
 
 .header .header-container {
-  background-color:#f7f7f7;;
+  background-color:#000000;;
   border-radius: 50px;
   padding: 5px 25px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
@@ -263,7 +263,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: #9333EA;
+    color: #ffffff;
     font-size: 15px;
     padding: 0 2px;
     font-family: var(--nav-font);
@@ -307,13 +307,13 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: #9333EA;
+    color: #ffffff;
   }
 
   .navmenu .dropdown ul {
     margin: 0;
     padding: 10px 0;
-    background-color: #9333EA;
+    background-color: #ffffff;
     display: block;
     position: absolute;
     visibility: hidden;
@@ -334,7 +334,7 @@ h6 {
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
-    color: #9333EA;
+    color: #ffffff;
   }
 
   .navmenu .dropdown ul a i {
@@ -863,9 +863,9 @@ section,
   border: 2px solid var(--accent-color);
 }
 
-.hero .hero-buttons .btn.btn-primary:hover {
-  background-color: #FFD700;
-  border-color:#FFD700;
+.hero .hero-buttons .btn.btn-primary:hover {http-server
+  background-color: #FFD700 ;
+  border-color: color-mix(in srgb, var(--accent-color), black 10%);
   transform: translateY(-2px);
 }
 
@@ -877,7 +877,7 @@ section,
 
 .hero .hero-buttons .btn.btn-outline:hover {
   background: var(--accent-color);
-  color: #FFD700;
+  color: #9333EA;
   transform: translateY(-2px);
 }
 
@@ -1205,7 +1205,7 @@ section,
   width: 80px;
   height: 80px;
   margin: 0 auto 25px;
-  background: linear-gradient(135deg, var(--accent-color), color-mix(in srgb, var(--accent-color), #8b5cf6 30%));
+  background-color: #FF8C00;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -1222,7 +1222,7 @@ section,
   position: absolute;
   top: -10px;
   right: 20px;
-  background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+  background-color: #eab308 ;
   color: var(--contrast-color);
   padding: 6px 16px;
   border-radius: 20px;
@@ -1275,7 +1275,7 @@ section,
 }
 
 .services .service-link:hover {
-  color: var(--accent-color);
+  color: #6d28d9;
 }
 
 .services .service-link:hover i {
