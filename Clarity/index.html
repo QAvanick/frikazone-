@@ -71,7 +71,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li> -->
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="/Clarity/contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -84,51 +84,122 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
+    <!-- Hero Section - Carousel Version with Animations -->
+<!-- Hero Section - Carousel Version with Animations -->
+<!-- Hero Section - Carousel with Slide Animations -->
+<section id="hero" class="hero section">
 
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-            <div class="hero-content">
-              <h1>Transformez votre présence numérique</h1>
-              <p>Nous créons des solutions numériques innovantes qui stimulent la croissance et dynamisent votre marque. Du développement web au marketing digital, nous sommes vos partenaires de la transformation numérique.</p>
-              <div class="hero-buttons">
-                <a href="#" class="btn btn-primary">Commencer</a>
-                <a href="#" class="btn btn-outline">Notre travail</a>
-              </div>
-              <div class="hero-stats">
-                <div class="stat-item">
-                  <span class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1"></span>
-                  <span class="stat-label">Projets terminés</span>
+  <div class="container">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <!-- Slides -->
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row align-items-center">
+            <div class="col-lg-6" data-animate="fade-right">
+              <div class="hero-content">
+                <h1 class="animate-slide">Transformez votre présence numérique</h1>
+                <p class="animate-slide" data-delay="100">Nous créons des solutions numériques innovantes qui stimulent la croissance et dynamisent votre marque.</p>
+                <div class="hero-buttons animate-slide" data-delay="200">
+                  <a href="#" class="btn btn-primary">Commencer</a>
+                  <a href="#" class="btn btn-outline">Notre travail</a>
                 </div>
-                <div class="stat-item">
-                  <span class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="95" data-purecounter-duration="1"></span>
-                  <span class="stat-label">Satisfaction des clients</span>
-                </div>
-                <div class="stat-item">
-                  <span class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1"></span>
-                  <span class="stat-label">Membres de l'équipe</span>
+                <div class="hero-stats animate-slide" data-delay="300">
+                  <div class="stat-item"><span class="stat-number purecounter" data-purecounter-end="150">0</span> Projets terminés</div>
+                  <div class="stat-item"><span class="stat-number purecounter" data-purecounter-end="95">0</span>% Satisfaction</div>
+                  <div class="stat-item"><span class="stat-number purecounter" data-purecounter-end="24">0</span> Membres</div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
-            <div class="hero-visual">
-              <div class="hero-image">
-                <img src="assets/img/misc/misc-16.webp" alt="Digital Agency Hero" class="img-fluid">
+            <div class="col-lg-6" data-animate="fade-left" data-delay="200">
+              <div class="hero-visual">
+                <img src="assets/img/misc/misc-16.webp" alt="Slide 1" class="img-fluid">
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-lg-6" data-animate="fade-right">
+              <div class="hero-content">
+                <h1 class="animate-slide">Créez une identité forte et mémorable</h1>
+                <p class="animate-slide" data-delay="100">Logo, charte graphique, design d'interface — nous construisons votre image de marque avec précision.</p>
+                <div class="hero-buttons animate-slide" data-delay="200">
+                  <a href="#" class="btn btn-primary">Découvrir</a>
+                  <a href="#" class="btn btn-outline">Voir projets</a>
+                </div>
+                <div class="hero-stats animate-slide" data-delay="300">
+                  <div class="stat-item"><span class="stat-number purecounter" data-purecounter-end="87">0</span> Marques</div>
+                  <div class="stat-item"><span class="stat-number purecounter" data-purecounter-end="98">0</span>% Taux</div>
+                  <div class="stat-item"><span class="stat-number purecounter" data-purecounter-end="12">0</span> Ans</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6" data-animate="fade-left" data-delay="200">
+              <div class="hero-visual">
+                <img src="https://f.hellowork.com/seo/domaine/graphisme.jpeg" alt="Slide 2" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-lg-6" data-animate="fade-right">
+              <div class="hero-content">
+                <h1 class="animate-slide">Boostez votre visibilité en ligne</h1>
+                <p class="animate-slide" data-delay="100">SEO, publicité digitale, réseaux sociaux — stratégies efficaces et mesurables.</p>
+                <div class="hero-buttons animate-slide" data-delay="200">
+                  <a href="#" class="btn btn-primary">Lancer campagne</a>
+                  <a href="#" class="btn btn-outline">Nos résultats</a>
+                </div>
+                <div class="hero-stats animate-slide" data-delay="300">
+                  <div class="stat-item"><span class="stat-number purecounter" data-purecounter-end="250">0</span> Campagnes</div>
+                  <div class="stat-item"><span class="stat-number purecounter" data-purecounter-end="350">0</span> Clients</div>
+                  <div class="stat-item"><span class="stat-number purecounter" data-purecounter-end="4.8">0</span> Note</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6" data-animate="fade-left" data-delay="200">
+              <div class="hero-visual">
+                <img src="https://siteforinfotech.com/wp-content/uploads/2025/07/Maximizing-Brand-Visibility-Using-Digital-Marketing-Techniques.jpg" alt="Slide 3" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
-      <div class="hero-bg-elements">
-        <div class="bg-shape shape-1"></div>
-        <div class="bg-shape shape-2"></div>
-        <div class="bg-particles"></div>
-      </div>
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
 
-    </section><!-- /Hero Section -->
+  <div class="hero-bg-elements">
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-particles"></div>
+  </div>
+</section><!-- /Hero Section -->
 
     <!-- About Section -->
      <!--<section id="about" class="about section">
@@ -183,115 +254,122 @@
     </section><!-- /About Section -->
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+   <section id="services" class="services section">
 
-      <!-- Section Title -->
- <div class="container section-title" data-aos="fade-up">
-        <h2>Nos Services</h2>
-        <p>Découvrez comment nous pouvons accompagner votre entreprise dans sa transformation digitale grâce à des solutions sur mesure.</p>
-      </div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Nos Services</h2>
+    <p>Découvrez comment nous pouvons accompagner votre entreprise dans sa transformation digitale grâce à des solutions sur mesure.</p>
+  </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
 
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-palette"></i>
-              </div>
-              <h4><a href="service-details.html">Conception d'Identité de Marque</a></h4>
-              <p>Créez une image de marque forte et mémorable avec un logo, une charte graphique et une identité visuelle cohérente qui reflète vos valeurs.</p>
-              <div class="service-badge">Le Plus Populaire</div>
-              <a href="service-details.html" class="service-link">
-                <span>En savoir plus</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
+      <!-- Service 1: Marketing Digital -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="bi bi-megaphone"></i>
           </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-layout-text-window-reverse"></i>
-              </div>
-              <h4><a href="service-details.html">Design UI/UX</a></h4>
-              <p>Offrez à vos utilisateurs une expérience fluide, intuitive et engageante grâce à un design centré sur l’utilisateur et les bonnes pratiques ergonomiques.</p>
-              <a href="service-details.html" class="service-link">
-                <span>En savoir plus</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-code-slash"></i>
-              </div>
-              <h4><a href="service-details.html">Développement Web</a></h4>
-              <p>Des sites web performants, sécurisés et évolutifs, conçus avec les dernières technologies pour répondre aux besoins de votre entreprise.</p>
-              <a href="service-details.html" class="service-link">
-                <span>En savoir plus</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-phone"></i>
-              </div>
-              <h4><a href="service-details.html">Design d'Application Mobile</a></h4>
-              <p>Création d’interfaces mobiles élégantes et fonctionnelles pour offrir une expérience optimale sur smartphones et tablettes.</p>
-              <a href="service-details.html" class="service-link">
-                <span>En savoir plus</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-megaphone"></i>
-              </div>
-              <h4><a href="service-details.html">Marketing Digital</a></h4>
-              <p>Stratégies complètes de marketing numérique : campagnes publicitaires, gestion des réseaux sociaux, emailing et génération de leads.</p>
-              <a href="service-details.html" class="service-link">
-                <span>En savoir plus</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-search"></i>
-              </div>
-              <h4><a href="service-details.html">Optimisation SEO</a></h4>
-              <p>Améliorez votre visibilité sur les moteurs de recherche et attirez plus de trafic qualifié grâce à une stratégie SEO efficace et durable.</p>
-              <a href="service-details.html" class="service-link">
-                <span>En savoir plus</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-
+          <h4><a href="service-details.html">Marketing Digital</a></h4>
+          <p>Stratégies complètes de marketing numérique : campagnes publicitaires ciblées, gestion des réseaux sociaux, emailing automatisé et génération de leads qualifiés pour booster votre visibilité.</p>
+          <div class="service-badge">Le Plus Populaire</div>
+          <a href="service-details.html" class="service-link">
+            <span>En savoir plus</span>
+            <i class="bi bi-arrow-right"></i>
+          </a>
         </div>
-
-        <div class="row mt-5">
-          <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="400">
-            <div class="services-cta">
-              <h3>Prêt à transformer votre présence numérique ?</h3>
-              <p>Discutons de votre projet et créons ensemble quelque chose d'exceptionnel.</p>
-              <a href="service-details.html" class="btn btn-primary">Commencer dès aujourd'hui</a>
-            </div>
-          </div>
-        </div>
-
       </div>
+
+      <!-- Service 2: Création de Contenu -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="bi bi-file-earmark-text"></i>
+          </div>
+          <h4><a href="service-details.html">Création de Contenu</a></h4>
+          <p>Contenus engageants et sur mesure : articles de blog, vidéos, infographies, publications sociales… Nous racontons votre histoire pour capter l’attention de votre audience.</p>
+          <a href="service-details.html" class="service-link">
+            <span>En savoir plus</span>
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+    <!-- Service 5: Community Management -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="bi bi-people"></i>
+          </div>
+          <h4><a href="service-details.html">Community Management</a></h4>
+          <p>Gestion active de vos réseaux sociaux : animation de communauté, plan éditorial, création de contenu, interaction avec vos abonnés et croissance de votre audience.</p>
+          <a href="service-details.html" class="service-link">
+            <span>En savoir plus</span>
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service 4: Graphiste / Design Visuel -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="bi bi-palette"></i>
+          </div>
+          <h4><a href="service-details.html">Graphiste</a></h4>
+          <p>Création graphique complète : logo, charte visuelle, affiches, brochures, visuels pour réseaux sociaux… Un design professionnel qui reflète l’âme de votre marque.</p>
+          <a href="service-details.html" class="service-link">
+            <span>En savoir plus</span>
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+         <!-- Service 3: Développement Web & Boutique en Ligne -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="bi bi-code-slash"></i>
+          </div>
+          <h4><a href="service-details.html">Développement Web et Boutique en Ligne</a></h4>
+          <p>Sites vitrines, sites e-commerce performants et sécurisés (avec WooCommerce, Shopify ou sur mesure), optimisés pour le référencement et compatibles mobiles.</p>
+          <a href="service-details.html" class="service-link">
+            <span>En savoir plus</span>
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service 6: SEO Optimisation -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="bi bi-search"></i>
+          </div>
+          <h4><a href="service-details.html">Optimisation SEO</a></h4>
+          <p>Améliorez votre positionnement sur Google grâce à une optimisation technique, sémantique et structurelle de votre site, pour attirer plus de trafic organique.</p>
+          <a href="service-details.html" class="service-link">
+            <span>En savoir plus</span>
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Call to Action -->
+    <div class="row mt-5">
+      <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="400">
+        <div class="services-cta">
+          <h3>Prêt à transformer votre présence numérique ?</h3>
+          <p>Discutons de votre projet et créons ensemble quelque chose d'exceptionnel.</p>
+          <a href="contact.html" class="btn btn-primary">Commencer dès aujourd'hui</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </section>
 
     <!-- Portfolio Section -->
@@ -1348,6 +1426,43 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const carousel = document.getElementById("heroCarousel");
+
+    // Fonction pour animer les éléments d'un slide
+    function animateSlideContent(slide) {
+      // Cacher puis animer tous les éléments avec .animate-slide
+      const elements = slide.querySelectorAll(".animate-slide");
+      elements.forEach((el, index) => {
+        const delay = el.getAttribute("data-delay") || 0;
+        el.style.opacity = "0";
+        el.style.transform = "translateY(0px)";
+        el.style.transition = "opacity 0.8s ease, transform 0.8s ease";
+
+        setTimeout(() => {
+          el.style.opacity = "1";
+          el.style.transform = "translateY(0)";
+        }, 300 + parseInt(delay));
+      });
+
+      // Relancer les compteurs PureCounter
+      if (typeof PureCounter !== "undefined") {
+        new PureCounter();
+      }
+    }
+
+    // Au changement de slide
+    carousel.addEventListener("slid.bs.carousel", function () {
+      const activeSlide = carousel.querySelector(".carousel-item.active");
+      animateSlideContent(activeSlide);
+    });
+
+    // Lancer l'animation pour le premier slide au chargement
+    const firstActiveSlide = carousel.querySelector(".carousel-item.active");
+    animateSlideContent(firstActiveSlide);
+  });
+</script>
 
 </body>
 
