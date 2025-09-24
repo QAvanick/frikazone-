@@ -24,7 +24,7 @@
   --background-color: #05071e; /* Background color for the entire website, including individual sections */
   --default-color: #e8e7f7; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #524dd3; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #8A2BE2; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #131428; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -42,8 +42,8 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #0c114a;
-  --surface-color: #131b76;
+  --background-color: #8A2BE2;
+  --surface-color: #8A2BE2;
 }
 
 .dark-background {
@@ -1222,7 +1222,7 @@ section,
   position: absolute;
   top: -10px;
   right: 20px;
-  background-color:  #8A2BE2;
+  background-color:  #FFD700;
   color: var(--contrast-color);
   padding: 6px 16px;
   border-radius: 20px;
@@ -2146,7 +2146,7 @@ section,
 .team .team-intro .intro-content .stats-row .stat-item .stat-number {
   font-size: 2rem;
   font-weight: 700;
-  color: var(--accent-color);
+  color: #FFD700;
   line-height: 1;
   margin-bottom: 4px;
 }
@@ -2605,9 +2605,9 @@ section,
   height: 52px;
   padding: 16px 20px;
   border-radius: 16px;
-  border: 2px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  border: 2px solid color-mix(in srgb, #8A2BE2, transparent 88%);
   background-color: color-mix(in srgb, var(--surface-color), var(--background-color) 30%);
-  color: var(--default-color);
+  color: #8A2BE2;
   font-size: 15px;
   transition: all 0.3s ease;
 }
