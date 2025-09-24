@@ -3293,7 +3293,7 @@ section,
 
 .service-details .service-features .feature-item i {
   font-size: 1.5rem;
-  color: var(--accent-color);
+  color: #FFD700;
   margin-top: 0.25rem;
 }
 
@@ -3483,7 +3483,7 @@ section,
 }
 
 .service-details .inquiry-form .btn-submit {
-  background: var(--accent-color);
+  background: #FF8C00;
   color: var(--contrast-color);
   border: none;
   padding: 0.875rem 2rem;
